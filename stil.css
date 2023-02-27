@@ -1,0 +1,61 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    padding: 80px 200px;
+    color: #444444;
+  }
+  h1{
+      padding-bottom: 40px;
+  }
+  #tekst, #Add, #Remove{
+      font-size: 18px;
+  }
+  #tekst {
+      height: 40px;
+      border: solid;
+      border-color: grey;
+      border-radius: 5px;
+      border-width: thin;
+      padding-left: 0.6em;
+  }
+  body #tekst:focus {
+      border-color: #b84957;   
+  }
+  #Add {
+      margin-left: 30px;
+      width: 100px;
+      height: 45px;
+      background-color: #ffe8eb;
+      border: solid;
+      border-radius: 5px;
+      border-width: thin;
+      color: #b84957;
+      text-align: center;
+      font-weight: bold;
+  }
+  #Add:hover {
+      background-color:#b84957;
+      color: white;
+  }
+  #Remove {
+      margin-left: 840px;
+      border: none;
+      background-color: white;
+      text-decoration: underline;
+      color: #b84957;
+  }
+  #div-element {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 30px 20px;
+      padding-top: 50px;
+  }
+  #noviElement {
+      width: 600px;
+      border-radius: 10px;
+      box-shadow: 1px 2px 3px 2px #8C8C8C;
+      text-align: center;
+      padding: 30px;
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+  }
