@@ -17,9 +17,10 @@ body {
       border-width: thin;
       padding-left: 0.6em;
   }
-  body #tekst:focus {
-      border-color: #b84957;   
+  #tekst:focus {
+    outline-color: #b84957;   
   }
+
   #Add {
       margin-left: 30px;
       width: 100px;
